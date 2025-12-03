@@ -1,5 +1,6 @@
 # ML-HT
 This repo is for our paper "Explainable multimodal prediction model of hematologic toxicities to optimize neoadjuvant chemoradiotherapy for locally advanced rectal cancer：A multicenter retrospective study".
+
 Terms:
 Hematologic Toxicity（HT）; Neoadjuvant chemoradiotherapy (NACRT); local advanced rectal cancer (LARC)
 
