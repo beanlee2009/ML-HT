@@ -1,5 +1,5 @@
 # ML-HT
-Explainable multimodal prediction model of hematologic toxicities
+This repo is for our paper "Explainable multimodal prediction model of hematologic toxicities to optimize neoadjuvant chemoradiotherapy for locally advanced rectal cancer：A multicenter retrospective study".
 Terms:
 Hematologic Toxicity（HT）; Neoadjuvant chemoradiotherapy (NACRT); local advanced rectal cancer (LARC)
 
@@ -19,4 +19,4 @@ Dosimetric features:
 Dosimetric features were collected from dose-volume parameters (DVPs) in the radiotherapy plans. As for DVPs of a specific VOI, Vx means the relative volume that received a dose greater than x-Gy, and Dy means the absolute received dose greater than y% volume of interest. In addition, some special parameters Dmax, Dmin, Dmean, D95 and D98 were also included.
 
 Radiomic and dosimetric score：
-A least absolute shrinkage and seletion operator (LASSO) was applied to select the most representative features of dosimetric and radiomic features to conduct Rad_score and Dose_score by linear regression seperately. The linear models of Rad_score and Dose_score can be expressed as score=∑_i▒〖a+w_i×〗 f_i, where a is the intercept value, w_i is the weight of the feature f_i.
+A least absolute shrinkage and seletion operator (LASSO) was applied to select the most representative features of dosimetric and radiomic features to conduct Rad_score and Dose_score by linear regression seperately. The linear models of Rad_score and Dose_score can be expressed as score=∑_i〖a+w_i×〗 f_i, where a is the intercept value, w_i is the weight of the feature f_i.
